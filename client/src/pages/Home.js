@@ -11,7 +11,7 @@ class Home extends Component {
   state = {
     books: [],
     q: "",
-    message: "Search For A Book To Begin!",
+    message: "Search For A Book",
   };
 
   handleInputChange = (event) => {
@@ -31,7 +31,7 @@ class Home extends Component {
       .catch(() =>
         this.setState({
           books: [],
-          message: "No New Books Found, Try a Different Query",
+          message: "No New Books Found",
         })
       );
   };
@@ -94,7 +94,7 @@ class Home extends Component {
                       Button={() => (
                         <button
                           onClick={() => this.handleBookSave(book.id)}
-                          className="btn btn-primary ml-2"
+                          className="btn ml-2"
                         >
                           Save
                         </button>
