@@ -13,7 +13,7 @@
 
 ## Description
 
-An employee directory displaying employee information. The employee information is sortable by the name column.
+An Google book search where the user can search for books. The user can also save specific books to saved book list.
 
 ## Installation
 
