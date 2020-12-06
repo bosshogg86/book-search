@@ -13,7 +13,7 @@
 
 ## Description
 
-An Google book search where the user can search for books. The user can also save specific books to saved book list.
+A Google book search where the user can search for books. The user can also save specific books to saved book list.
 
 ## Installation
 
